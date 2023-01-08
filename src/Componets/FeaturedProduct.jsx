@@ -8,7 +8,7 @@ const FeaturedProduct = () => {
         <div className='lg:flex lg:py-[60px] md:px-[20px] sm:px-[12px] px-[8px] lg:gap-[37px]'>
             <div className='Featured-img lg:w-[610px] lg:h-[305px] w-[100%] h-[255px] lg:block flex flex-col items-center lg:mx-0 mx-auto'>
                 <p className='lg:hidden block text-white text-center pt-[50px] font-semibold text-[30px]'>Boolean Egyptian</p>
-                <div className='border border-white w-[78px] h-[78px] rounded-full flex items-center text-white lg:ml-[67px] lg:hidden block mt-[50px]'>
+                <div className='border border-white w-[78px] h-[78px] rounded-full items-center text-white lg:ml-[67px] lg:hidden block mt-[50px]'>
                     <i class="bi bi-arrow-right text-[40px] mx-auto"></i>
                 </div>
             </div>

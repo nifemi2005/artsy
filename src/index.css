@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .Featured-img{
     background-image: url(./assets/Featured-img1.png);
     object-fit: cover;
