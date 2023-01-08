@@ -1,0 +1,18 @@
+.Featured-img{
+    background-image: url(./assets/Featured-img1.png);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Featured-img2{
+    background-image: url(./assets/Featured-img2.png);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Featured-img3 {
+    background-image: url(./assets/Featured-img3.png);
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
