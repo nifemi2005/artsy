@@ -4,6 +4,7 @@ import FeaturedProduct from '../Componets/FeaturedProduct'
 import Footer from '../Componets/Footer'
 import HomeHero from '../Componets/Home-Hero'
 import Navbar from '../Componets/Navbar'
+import Newsletter from '../Componets/Newsletter'
 import UpcomingAuction from '../Componets/UpcomingAuction'
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <FeaturedProduct/>
       <UpcomingAuction/>
       <Explore/>
+      <Newsletter/>
       <Footer/>
     </div>
   )
