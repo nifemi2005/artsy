@@ -42,7 +42,7 @@ const Navbar = (props) => {
         <div className='sm:text-[24px] md:block sm:hidden hidden text-[#333333] cursor-pointer'>
           <i class="bi bi-bell"></i>
         </div>
-        <div  onClick={handleClick}>
+        <div  onClick={handleClick} className='lg:block hidden'>
           <div onClick={props.msg} className='cursor-pointer'>
             {toggle ? <BsToggle2On size={30}/> : <BsToggle2Off className='' size={30}/>}
           </div>
