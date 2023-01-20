@@ -44,7 +44,7 @@ const Navbar = (props) => {
         </div>
         <div  onClick={handleClick} className='lg:block hidden'>
           <div onClick={props.msg} className='cursor-pointer'>
-            {toggle ? <BsToggle2Off className='' size={30}/> :  <BsToggle2On size={30}/>}
+            {toggle ? <BsToggle2On size={30}/> : <BsToggle2Off className='' size={30}/> }
           </div>
           </div>
       </div>

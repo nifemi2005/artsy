@@ -16,7 +16,6 @@ const MarketToggle = () => {
   return (
     <div style={style}>
         <ThemeContext.Provider value={darkTheme}>
-            <button onClick={toggleTheme}>Click</button>
             <MarketPlace msg={toggleTheme}/>
         </ThemeContext.Provider>
     </div>
