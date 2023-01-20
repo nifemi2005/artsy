@@ -12,7 +12,7 @@ import { ThemeContext } from '../Componets/HomeToggle'
 const Home = (props) => {
   const darkTheme = useContext(ThemeContext)
     const style = {
-        backgroundColor: darkTheme ? 'white' : '#ccc',
+        backgroundColor: darkTheme ? 'white' : 'black',
         color: darkTheme ? 'black' : 'green',
     }
   return (
