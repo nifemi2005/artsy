@@ -3,6 +3,7 @@ import Footer from '../Componets/Footer'
 import Navbar from '../Componets/Navbar'
 import { useContext } from "react";
 import { ThemeContext } from '../Componets/MarketToggle';
+import MarketNav from '../Componets/MarketNav';
 
 const MarketPlace = (props) => {
    const darkTheme = useContext(ThemeContext)
@@ -13,6 +14,7 @@ const MarketPlace = (props) => {
   return (
     <div style={style}>
       <Navbar msg={props.msg}/>
+      <MarketNav/>
       <Footer/>
     </div>
   )
