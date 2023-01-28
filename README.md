@@ -10,7 +10,11 @@ In the project directory, you can run:
 
 ### 'npm run dev'
 
-It will run the project live.
+Runs the app in the development mode.\
+Open [http://127.0.0.1:5173/](http://127.0.0.1:5173/) to view it in your browser.
+
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
 ### The desktop view is as shown below:
 ![artsy](https://user-images.githubusercontent.com/91688854/215275482-bb9b6f8a-d414-4bf1-8752-58f100dad57b.JPG)
