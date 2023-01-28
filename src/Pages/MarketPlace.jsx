@@ -1,9 +1,9 @@
 import React from 'react'
-import Footer from '../Componets/Footer'
 import Navbar from '../Componets/Navbar'
 import { useContext } from "react";
 import { ThemeContext } from '../Componets/MarketToggle';
 import MarketNav from '../Componets/MarketNav';
+import ImageFilter from '../Componets/ImageFilter';
 
 const MarketPlace = (props) => {
    const darkTheme = useContext(ThemeContext)
@@ -15,7 +15,7 @@ const MarketPlace = (props) => {
     <div style={style}>
       <Navbar msg={props.msg}/>
       <MarketNav/>
-      <Footer/>
+      <ImageFilter/>
     </div>
   )
 }
