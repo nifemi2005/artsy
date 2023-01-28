@@ -1,7 +1,5 @@
 # ARTSY
 This project was bootstrapped with [VITE]().
-# Live url:
-https://anjola-artsy.netlify.app/
 ## Available Scripts
 
 ### `cd project name`
@@ -19,3 +17,5 @@ It will run the project live.
 
 ### The mobile view is as shown below:
 ![artsy-mobile](https://user-images.githubusercontent.com/91688854/215275632-3fa89f2f-6a59-459c-aaf8-5a894496082b.JPG)
+# Live url:
+https://anjola-artsy.netlify.app/
