@@ -12,7 +12,7 @@ const MarketNav = () => {
             <AiOutlineSearch className='absolute text-[28px]'/>
             <input type="search" className='pl-8 bg-[#f4f2f2] py-4 rounded-2xl lg:w-52' placeholder='Search'/>
         </div>
-        <div className='shade lg:py-7 md:py-6 sm:py-5 py-4 flex items-center justify-between md:w-[70%] sm:w-[80%] w-[90%] px-7 lg:mx-0 mx-auto'>
+        <div className='shade lg:py-7 md:py-6 sm:py-5 py-4 flex items-center justify-between lg:w-[72%] md:w-[70%] sm:w-[80%] w-[90%] px-7 lg:mx-0 mx-auto'>
             <div className='lg:text-[24px] lg:leading-9 font-normal lg:block hidden'>
                 <p>See 1-6 of 15 results</p>
             </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Img1 from '../assets/image1.jpg'
 import Image1 from '../assets/grid-image-1.png'
 import Image2 from '../assets/grid-image-2.png'
 import Image3 from '../assets/grid-image-3.png'
@@ -11,9 +12,10 @@ import Image9 from '../assets/grid-image-9.png'
 
 const RightSide = () => {
   return (
-    <div className='grid md:grid-cols-3 lg:gap-[50px] md:gap-[30px] sm:gap-[20px] gap-[10px] sm:grid-cols-2 mx-auto'>
+    <div className='grid md:grid-cols-3 lg:gap-[50px] md:gap-[30px] sm:gap-[20px] gap-[10px] sm:grid-cols-2 lg:mx-0 sm:mx-auto mx-auto'>
       <div className='shade-2 bg-white sm:block hidden'>
         <img src={Image1} alt="grid-image-1" className='pt-5 px-[14px]'/>
+        {/* <img src={Img1} alt="grid-image-1" className='pt-5 px-[14px]'/> */}
         <p className='font-normal lg:text-[19px] pt-3 pl-[14px]'>PHILOMENA ‘22</p>
         <p className='font-bold lg:text-[21px] pl-[14px] pb-2'>$3.90</p>
       </div>
